@@ -80,8 +80,9 @@
                 </td>
 
                    <td>
+                    <a class="btn btn-dark" href="{{url('edit/'.$data->id)}}">Update</a>
                     <a class="btn btn-danger" href="{{url('deletedata/'.$data->id)}}">Delete</a>
-                    <a class="btn btn-success " href="{{url('edit/'.$data->id)}}">Update</a>
+                
 
                    </td>
                 </tr>   
